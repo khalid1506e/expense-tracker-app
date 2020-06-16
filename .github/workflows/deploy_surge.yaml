@@ -28,6 +28,6 @@ jobs:
     - name: Install Surge
       run: npm install -g surge
     - name:  Run Surge
-      run: ./ expense-tracker-app.surge.sh --token ${{secrets.token_surge}}
+      run: ./ new-expense-tracker-app.surge.sh --token ${{secrets.token_surge}}
     
     
